@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-image: url(img/druivenveld.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+}
+
+header h1 {
+    color: white;
+    font-size: 6rem;
+    text-align: center;
+    padding-top: 10rem;
+    font-family: "amandine";
+}
+
+main {
+    width: 80%;
+    height: auto;
+    background-color: #fff;
+    padding: 5rem;
+    border-radius: 1rem;
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.2);
+    margin: 0 auto;
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+}
+
+main img {
+    width: 10rem;
+    height: auto;
+    margin-left: 2rem;
+    border-radius: 5px;
+}
+
+.info-likeur {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5rem;
+    margin-top: 1rem;
+}
+
+.info-likeur p {
+    font-family: "arial";
+    font-size: 1rem;
+}
+
+h1 {
+    font-family: "amandine";
+    font-size: 3rem;
+}
+
+@media only screen and (max-width: 800px) {
+    .info-likeur {
+        flex-direction: column;
+    }
+
+    main img {
+        width: 15rem;
+        margin-left: 0;
+        margin-bottom: 2rem;
+        margin-top: 6rem;
+    }
+}
