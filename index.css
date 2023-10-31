@@ -75,7 +75,6 @@ h1 {
         margin-top: 6rem;
     }
 }
-
 footer p {
     color: #000;
     font-family: "arial";
@@ -101,26 +100,18 @@ footer p {
 
 #contact-btn {
     display: flex;
-    width: 15rem;
+    width: 10rem;
     height: auto;
     margin: 0 auto;
     justify-content: center;
     padding: 5px;
-    background-color: black;
-    color: #fff;
+    color: #000000;
     border-radius: 5px;
     font-family: "amandine";
     font-size: 1rem;
     cursor: pointer;
-    transition: all 0.5s ease-in-out;
 }
 
 #contact-btn:hover {
-    background-color: #fff;
-    color: black;
-    border: 1px solid black;
-    transform: scale(1.1);
-    transition: all 0.3s ease-in-out;
+    border: 1px solid #000000;
 }
-
-
