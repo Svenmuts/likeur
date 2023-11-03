@@ -32,7 +32,7 @@ main {
     border-radius: 1rem;
     box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.2);
     margin: 0 auto;
-    margin-bottom: 10rem;
+    margin-bottom: 5rem;
     margin-top: -15rem;
 }
 
@@ -52,6 +52,7 @@ main img {
     font-family: "arial";
     font-size: 1rem;
     width: 50%;
+    text-align: justify;
 }
 
 h1 {
@@ -74,6 +75,35 @@ h1 {
         margin-bottom: 2rem;
         margin-top: 6rem;
     }
+}
+
+.overmij {
+    margin-left: 50vw;
+    width: 40%;
+    margin-bottom: 3rem;
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.2);
+}
+
+.overmij h1 {
+    margin-bottom: 30px;
+}
+
+.overmij p {
+    font-family: "arial";
+    font-size: 1rem;
+    text-align: justify;
+}
+
+@media only screen and (max-width: 800px) {
+    .overmij {
+        margin: auto;
+        width: 80%;
+        margin-bottom: 3rem;
+    }
+    
 }
 footer p {
     color: #000;
