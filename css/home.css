@@ -93,8 +93,8 @@ h1 {
 }
 
 .overmij h1 {
-    margin-bottom: 30px;
-    margin-top: 15px;
+    margin-bottom: 40px;
+    margin-top: 30px;
 }
 
 .overmij p {
@@ -119,6 +119,10 @@ h1 {
     }
     .overmij {
         margin: auto;
+        margin-bottom: 5rem;
+    }
+
+    .overmij-img {
         margin-bottom: 5rem;
     }
 }
