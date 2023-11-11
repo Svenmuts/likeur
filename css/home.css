@@ -80,8 +80,8 @@ h1 {
 .overmij-main {
     display: flex;
     justify-content: space-between;
-    margin-left: 10rem;
-    margin-right: 10rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
     margin-bottom: 10rem;
 }
 
@@ -94,18 +94,20 @@ h1 {
 
 .overmij h1 {
     margin-bottom: 30px;
+    margin-top: 15px;
 }
 
 .overmij p {
     font-family: "arial";
     font-size: 1rem;
     text-align: justify;
-    padding: 10px;
+    margin: 25px;
 }
 
 .overmij-img img{
     width: 15rem;
     height: auto;
+    border-radius: 10px;
 }
 
 @media only screen and (max-width: 800px) {
